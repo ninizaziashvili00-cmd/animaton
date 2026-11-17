@@ -9,7 +9,7 @@ body {
       font-family: sans-serif;
     }
 
-    /* სათაური */
+    
     .title {
       color: #e2e8f0;
       font-size: 2.5rem;
@@ -23,7 +23,7 @@ body {
       z-index: 10;
     }
 
-    /* მთვარის კონტეინერი გადაადგილებისა და ბრუნვისთვის */
+    
     .moon-box {
       position: absolute;
       top: 10%;
@@ -35,7 +35,7 @@ body {
       animation-timing-function: linear;
     }
 
-    /* თვითონ მთვარე (hover ეფექტით) */
+    
     .moon {
       font-size: 4rem;
       cursor: pointer;
@@ -47,17 +47,17 @@ body {
       transform: scale(1.3);
     }
 
-    /* ვარსკვლავების საერთო სტილი (გადიდებული ზომით) */
+    
     .star {
       position: absolute;
-      font-size: 2rem; /* აქ გავადიდე ვარსკვლავები */
+      font-size: 2rem; 
       opacity: 0.3;
       animation-name: twinkle;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
     }
 
-    /* ვარსკვლავები სხვადასხვა სიჩქარით და დაყოვნებით */
+    
     .star-1 {
       top: 20%;
       left: 20%;
@@ -93,7 +93,7 @@ body {
       animation-delay: 0.8s;
     }
 
-    /* ანიმაციები */
+    
     @keyframes moveMoon {
       0% {
         transform: translate(0, 0) rotate(0deg);
